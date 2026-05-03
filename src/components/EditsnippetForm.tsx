@@ -61,7 +61,7 @@ const EditsnippetForm = ({ snippet }: { snippet: Snippet }) => {
                 minimap: { enabled: false },
                 padding: { top: 20 },
                 backgroundColor: 'transparent'
-              }}
+              } as any}
             />
           </div>
         </div>
