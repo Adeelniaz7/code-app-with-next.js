@@ -34,7 +34,7 @@ export default async function Home() {
            </div>
         )}
         
-        {snippets.map((snippet) => (
+        {snippets.map((snippet: any) => (
           <Link key={snippet.id} href={`/snippet/${snippet.id}`} className="group">
             <div className="glass h-full p-6 rounded-3xl border border-white/5 group-hover:border-indigo-500/30 transition-all duration-300 hover:translate-y-[-4px] relative overflow-hidden">
               <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-30 group-hover:scale-110 transition-all">
